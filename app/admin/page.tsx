@@ -84,20 +84,6 @@ export default function AdminDashboard() {
 
         <Card>
           <CardHeader>
-            <CardTitle>Manage Client Deals</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <p className="text-sm text-muted-foreground">
-              Track and manage client deals, commissions, and revenue data.
-            </p>
-            <Button asChild className="w-full">
-              <Link href="/admin/deals">Go to Client Deals</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
             <CardTitle>Manage Clients</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
