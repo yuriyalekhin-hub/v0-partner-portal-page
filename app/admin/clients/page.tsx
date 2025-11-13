@@ -2623,7 +2623,8 @@ export default function ClientsPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold">Client Management</h1>
+          {/* Changed "Client Management" to "Clients" */}
+          <h1 className="text-3xl font-bold">Clients</h1>
           <p className="text-muted-foreground mt-1">Manage partner clients and commission tracking</p>
         </div>
         <Dialog

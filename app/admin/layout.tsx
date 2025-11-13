@@ -16,8 +16,9 @@ export default function AdminLayout({
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
+              {/* Changed "Realytics Admin" to "Partner Admin" */}
               <Link href="/admin" className="text-xl font-semibold">
-                Realytics Admin
+                Partner Admin
               </Link>
               <nav className="hidden md:flex items-center gap-1">
                 <Button variant="ghost" size="sm" asChild>

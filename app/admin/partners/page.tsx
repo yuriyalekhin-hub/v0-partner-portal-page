@@ -346,7 +346,7 @@ export default function PartnersPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold">Partners Management</h1>
+          <h1 className="text-3xl font-bold">Partners</h1>
           <p className="text-muted-foreground mt-2">Manage partner information and details</p>
         </div>
         <Dialog
